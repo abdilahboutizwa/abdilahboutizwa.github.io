@@ -1,7 +1,7 @@
-baseURL: https://hugo-toha.github.io
+baseURL: https://abdilahboutizwa.github.io
 
 languageCode: bn
-title: "John's Blog"
+title: "Abdelilah Boutizoua"
 
 # Use Hugo modules to add theme
 module:
@@ -23,13 +23,18 @@ languages:
   en:
     languageCode: en
     languageName: English
-    title: "John's Blog"
+    title: "Abdelilah Boutizoua"
     weight: 1
-  bn:
-    languageCode: bn
-    languageName: বাংলা
-    title: জনের ব্লগ
+  fr:
+    languageCode: fr
+    languageName: French
+    title: "Abdelilah Boutizoua"
     weight: 2
+  ma:
+    languageCode: ma
+    languageName: Arabic
+    title: "عبدالاله بوتزوة"
+    weight: 3
 # default language for the content
 defaultContentLanguage: en
 
@@ -70,7 +75,7 @@ params:
     favicon: /images/site/favicon.png
 
   # GitHub repo of your site
-  gitRepo: https://github.com/hugo-toha/hugo-toha.github.io
+  gitRepo: https://github.com/abdilahboutizwa/abdilahboutizwa.github.io
   # Default branch of your Git repo
   gitBranch: main
 
@@ -100,7 +105,7 @@ params:
 
     # Enable and configure blog posts
     blog:
-      enable: true
+      enable: false
       showAuthor: true # shows the author of post (defaults true)
       # Share post on different social media
       shareButtons:
@@ -110,14 +115,14 @@ params:
         reddit: true
         whatsapp: true
         email: true
-        # tumblr: true
-        # pocket: true
-        # diaspora: true
-        # mastodon: true
+        tumblr: true
+        pocket: true
+        diaspora: true
+        mastodon: true
 
     # Enable & configure "Notes" features
     notes:
-      enable: true
+      enable: false
 
     # Enable comment feature. There, should be only one of them.
     comment:
@@ -155,7 +160,7 @@ params:
 
     # Enable Analytics
     analytics:
-      enabled: true
+      enabled: false
       services:
         # Google Analytics
         google:
@@ -306,4 +311,4 @@ params:
 
     # Show/hide disclaimer notice in the footer. Default is "false".
     disclaimer:
-      enable: true
+      enable: false
