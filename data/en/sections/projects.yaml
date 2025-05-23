@@ -8,40 +8,68 @@ section:
   # Can optionally hide the title in sections
   # hideTitle: true
 
-# filter buttons
-buttons:
-- name: All
-  filter: "all"
-- name: Professional
-  filter: "professional"
-- name: Academic
-  filter: "academic"
-- name: Hobby
-  filter: "hobby"
-
 # your projects
 projects:
 
-- name: Toha
-  logo: /images/sections/projects/toha.png
-  image: /images/sections/projects/toha_website.png
-  role: Owner
-  timeline: "Jun 2019 - Present"
-  summary: A Hugo theme for personal portfolio.
-  tags: ["hobby","hugo","theme","professional"]
+- name: Superviz
+  # logo: /images/sections/projects/superviz.png
+  image: /images/sections/projects/superviz_website.png
+  role: Position - Backend Developer
+  timeline: ""
+  summary: Superviz is a French platform that connects experienced drivers with learner drivers seeking supervised driving sessions. It offers an opportunity for experienced drivers to earn additional income by becoming "Superviseurs."
+  tags: ["driving", "education", "platform", "France"]
+  url: https://superviz.eu/
 
-- name: Toha
-  logo: /images/sections/projects/toha.png
-  image: /images/sections/projects/toha_website.png
-  role: Owner
-  timeline: "Jun 2019 - Present"
-  summary: A Hugo theme for personal portfolio.
-  tags: ["hobby","hugo","theme","professional"]
+- name: 5àsec
+  # logo: /images/sections/projects/5asec.png
+  image: /images/sections/projects/5asec_website.png
+  role: Position - Full Stack Developer
+  timeline: ""
+  summary: 5àsec Marrakesh offers dry cleaning and laundry services with pickup and delivery within 24 hours, catering to customers in Marrakesh, Morocco.
+  tags: ["services", "laundry", "retail", "international"]
+  url: https://5-asec.com/
 
-- name: Toha
-  logo: /images/sections/projects/toha.png
-  image: /images/sections/projects/toha_website.png
-  role: Owner
-  timeline: "Jun 2019 - Present"
-  summary: A Hugo theme for personal portfolio.
-  tags: ["hobby","hugo","theme","professional"]
+- name: Amende Pro
+  # logo: /images/sections/projects/amendepro.png
+  image: /images/sections/projects/amendepro_website.png
+  role: Position - Full Stack Developer
+  timeline: ""
+  summary: French SaaS solution connected to ANTAI for digitizing and managing traffic fines for businesses.
+  tags: ["software", "transport", "fines", "B2B"]
+  url: https://amendepro.fr/
+
+- name: Moh Le Patron
+  # logo: /images/sections/projects/moh.png
+  image: /images/sections/projects/moh_website.png
+  role: Position - Mobile Developer
+  timeline: ""
+  summary: E-commerce and retail chain offering a wide range of products including electronics and appliances, with Android and iOS apps.
+  tags: ["ecommerce", "retail", "electronics", "mobile"]
+  url: https://moh-le-patron.com/
+
+- name: Swibeco
+  # logo: /images/sections/projects/swibeco.svg
+  image: /images/sections/projects/swibeco_website.png
+  role: Position - Frontend Developer
+  timeline: ""
+  summary: Swiss platform offering tax-free employee benefits and perks to improve employee engagement and satisfaction.
+  tags: ["HR", "benefits", "SaaS", "employee"]
+  url: https://www.swibeco.ch/en/
+
+- name: Carrybooh
+  # logo: /images/sections/projects/carrybooh.png
+  image: /images/sections/projects/carrybooh_website.png
+  role: Position - Backend Developer
+  timeline: ""
+  summary: Mobile app for ordering and tracking local deliveries from favorite shops and restaurants.
+  tags: ["delivery", "mobile", "food", "local"]
+  url: https://play.google.com/store/apps/details?id=com.carrybooh.app&hl=en
+
+- name: Casky
+  # logo: /images/sections/projects/casky.png
+  image: /images/sections/projects/casky_website.png
+  role: Position - Full Stack Developer
+  timeline: ""
+  summary: SaaS platform for vehicle service providers, offering workflow automation and after-sales tools.
+  tags: ["automotive", "SaaS", "B2B", "workflow"]
+  url: https://casky.io/
