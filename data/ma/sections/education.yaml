@@ -1,0 +1,50 @@
+# section information
+section:
+  name: التعليم
+  id: education
+  template: sections/education.html # Use "sections/education-alt.html for alternate template.
+  enable: true
+  weight: 4
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+degrees:
+  - name: ماجستير في نظم المعلومات والأنظمة الذكية (M2SI)
+    icon: fa-graduation-cap
+    timeframe: 2019-2022
+    institution:
+      name: المعهد الوطني للإحصاء والاقتصاد التطبيقي - الرباط
+      url: "https://insea.ac.ma"
+      logo: /images/sections/education/insea.png
+      # Can optionally show a different logo for dark theme
+      # darkLogo: /images/sections/education/university.jpg
+    customSections: #(optional)
+      - name: الأطروحة
+        content: نظام توصية مبني على البيانات الضخمة باستخدام تقنيات BPM الذكية وتعدين العمليات.
+      - name: المشرف
+        content: الأستاذة مريم رادجي.
+  - name: إجازة مهنية في أنظمة الحاسوب وهندسة البرمجيات
+    icon: fa-university
+    timeframe: 2018-2019
+    institution:
+      name: المدرسة العليا للتكنولوجيا - الصويرة
+      url: "https://www.uca.ma/este/fr"
+      logo: /images/sections/education/este.png
+    customSections: #(optional)
+      - name: مشروع نهاية الدراسة
+        content: تصميم وتطوير حل السلامة المرورية للمركبات ذات العجلتين - Casky.io.
+      - name: المشرف
+        content: الأستاذ سعيد جونان.
+  - name: دبلوم تقني متخصص في الإعلاميات
+    icon: fa-school
+    timeframe: 2016-2018
+    institution:
+      name: المعهد المتخصص للتكنولوجيا التطبيقية NTIC - مراكش
+      url: "https://www.myway.ac.ma/fr/etablissement/L650"
+      logo: /images/sections/education/ista.png
+    customSections: #(optional)
+      - name: مشروع نهاية الدراسة
+        content: E-SCHOOL - إدارة الحضور والتأخير والتقدم في التدريب
+      - name: المشرف
+        content: الأستاذ لشكر محمد. 

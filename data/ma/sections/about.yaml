@@ -1,0 +1,55 @@
+# section information
+section:
+  name: نبذة عني
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  template: sections/about.html
+
+# your designation
+designation: مهندس برمجيات
+# your company information
+company:
+  name: DXC Technology Morocco.
+  url: "https://dxc.com/ma/en"
+
+# your resume. this file path should be relative to you "static" directory
+# Dreprecated. Use resourceLinks instead.
+# resume: "files/resume.pdf"
+
+# a summary about you
+summary: 'كمهندس برمجيات أول مع أكثر من 6 سنوات من الخبرة، أنا شغوف ببناء حلول برمجية عالية الجودة وقابلة للتطوير وسهلة الصيانة تحل مشاكل العالم الحقيقي. خبرتي تمتد عبر دورة حياة تطوير البرمجيات الكاملة، من التصور والتصميم إلى النشر والصيانة، مع تركيز قوي على TypeScript و React.js و PHP Symfony و Flutter. لدي سجل حافل من النجاح في تسليم المشاريع المعقدة، بما في ذلك دمج واجهات المشاريع المتنوعة وتطوير مكونات الويب المعيارية وقابلة لإعادة الاستخدام. أنا أزدهر في البيئات التعاونية وملتزم بكتابة كود نظيف وفعال والالتزام بأفضل الممارسات، بما في ذلك إجراء مراجعات كود شاملة وتنفيذ اختبارات وحدة قوية مع Jest. أنا دائماً حريص على التعلم والتكيف مع التقنيات والتحديات الجديدة. هدفي هو الاستفادة من مهاراتي وخبرتي للمساهمة في منظمة تطلعية تحدث تأثيراً إيجابياً، خاصة في بناء تطبيقات ويب وموبايل مبتكرة تعزز تجارب المستخدمين وتدفع النمو التجاري.'
+
+# your social links
+# give as many as you want. use font-awesome for the icons.
+socialLinks:
+- name: البريد الإلكتروني
+  icon: "fas fa-envelope"
+  url: "boutizouaa@gmail.com"
+
+- name: Github
+  icon: "fab fa-github"
+  url: "https://www.github.com/abdilahboutizwa"
+
+- name: Stackoverflow
+  icon: "fab fa-stack-overflow"
+  url: "https://stackoverflow.com/users/15361405/abdelilah-boutizoua"
+
+- name: LinkedIn
+  icon: "fab fa-linkedin"
+  url: "https://www.linkedin.com/in/abdilahboutizwa/"
+
+- name: Twitter
+  icon: "fab fa-twitter"
+  url: "https://twitter.com/abdilahboutizwa"
+
+- name: Facebook
+  icon: "fab fa-facebook"
+  url: "https://www.facebook.com/abdilahboutizwa"
+
+# You can put custom buttons to link your relevant resources.
+# For example, you can put link for your resume.
+resourceLinks:
+- title: "سيرتي الذاتية"
+  url: "files/resume.pdf" 

@@ -1,0 +1,112 @@
+# section information
+section:
+  name: الخبرات
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your experiences
+experiences:
+  - company:
+      name: DXC Technology Morocco.
+      url: "https://dxc.com/ma/en"
+      location: الدار البيضاء - عمل عن بُعد
+      logo: /images/sections/experiences/dxc.png
+      overview: DXC Technology هي شركة رائدة عالمياً في خدمات وحلول تكنولوجيا المعلومات من الجيل القادم، تساعد العملاء على تسخير قوة الابتكار للازدهار في التغيير.
+    positions:
+      - designation: مستشار تقني وظيفي
+        start: يونيو 2023
+        responsibilities:
+          - تكامل واجهات متنوعة لمشاريع مختلفة
+          - إنشاء وثائق تقنية شاملة
+          - إجراء مراجعات الكود لضمان أفضل الممارسات
+          - إعادة هيكلة وصيانة المشاريع القديمة
+          - تطوير وتنفيذ اختبارات الوحدة باستخدام Jest
+
+  - company:
+      name: ALTWEEB.
+      location: مراكش - عمل عن بُعد
+    positions:
+      - designation: مهندس برمجيات - عمل حر
+        start: يناير 2023
+        end: مايو 2023
+        responsibilities:
+          - تحويل تصاميم Figma إلى واجهات ويب وظيفية
+          - تطوير مكونات ويب وواجهات قابلة لإعادة الاستخدام
+          - إعداد خطوط إنتاج CI/CD للنشر التلقائي
+          - إجراء اختبارات الوحدة بـ Jest لضمان جودة الكود
+          - التعاون مع فرق متعددة التخصصات لتسليم المشاريع
+
+  - company:
+      name: Pulse.digital Maroc.
+      url: "https://pulse.digital"
+      location: مراكش - عمل عن بُعد
+      logo: /images/sections/experiences/pulse.png
+      overview: Pulse.digital هي وكالة رقمية متخصصة في تطوير تطبيقات الويب والموبايل، تقدم حلول مبتكرة للعملاء حول العالم.
+    positions:
+      - designation: مستشار تقني وظيفي
+        start: فبراير 2022
+        end: سبتمبر 2022
+        responsibilities:
+          - تصميم وتنفيذ مكونات الويب والواجهات
+          - صيانة وترقية الحزم الموجودة
+          - إجراء اختبارات الوحدة مع Jest للتحقق من الوظائف
+          - المشاركة في مراجعات الكود وجلسات البرمجة الثنائية
+          - تقديم الدعم التقني واستكشاف الأخطاء
+  
+  - company:
+      name: Devaro Maroc.
+      url: "https://devaro.co"
+      location: مراكش - عمل عن بُعد
+      logo: /images/sections/experiences/devaro.png
+      overview: Devaro هي مزود رائد للحلول البرمجية، متخصصة في تطوير تطبيقات الويب والموبايل، مع التركيز على تسليم منتجات عالية الجودة للعملاء.
+    positions:
+      - designation: مطور FullStack
+        start: "مارس 2021"
+        end: "فبراير 2022"
+        responsibilities:
+          - تصميم وتطوير تطبيقات الموبايل والويب من الصفر
+          - تقديم الدعم التقني المستمر والصيانة
+          - حل المشاكل التقنية المعقدة
+          - تنفيذ ميزات جديدة بناءً على ملاحظات المستخدمين
+          - تحسين الأداء لكفاءة أفضل
+  
+  - company:
+      name: Casky.io.
+      url: "https://casky.io"
+      location: مراكش
+      logo: /images/sections/experiences/casky.png
+      overview: Casky.io هي شركة تقنية تركز على توفير حلول مبتكرة للسلامة المرورية، متخصصة في تطبيقات الموبايل والويب للمركبات ذات العجلتين.
+    positions:
+      - designation: كبير مطوري FullStack - عمل حر
+        start: يونيو 2019
+        end: مارس 2021
+        responsibilities:
+          - صيانة وتحسين تطبيقات الويب والموبايل لتلبية متطلبات العملاء.
+          - تطوير وتنفيذ ميزات جديدة لتحسين عروض المنتجات.
+          - إعادة هيكلة الكود لتحسين أداء التطبيقات وقابليتها للصيانة.
+          - ضمان التوافق عبر المنصات والاستجابة في جميع المشاريع.
+          - التعاون المباشر مع العملاء لفهم الاحتياجات وتقديم حلول مخصصة.
+      - designation: مطور تطبيقات الموبايل - متدرب
+        start: أبريل 2019
+        end: مايو 2019
+        responsibilities:
+          - تطوير وصيانة تطبيقات الموبايل لمنصات Android و iOS
+          - تطوير ميزات ووظائف جديدة للتطبيقات الموجودة
+          - ضمان التوافق عبر المنصات والاستجابة
+  
+  - company:
+      name: Z Smart Services.
+      location: مراكش
+      overview: Z Smart Services هي شركة تقنية متخصصة في توفير حلول ذكية لصناعات متنوعة، مع التركيز على الابتكار والجودة.
+    positions:
+      - designation: مطور FullStack - متدرب
+        start: مايو 2018
+        end: سبتمبر 2018
+        responsibilities:
+          - "تصميم وتطوير تطبيقات الويب والموبايل لإدارة الغياب"
+          - "تطوير واجهات برمجة التطبيقات في PHP"
+          - "استخدام التقنيات: Android (Java)، JavaScript، و PHP الأصلي" 

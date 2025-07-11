@@ -1,0 +1,75 @@
+# section information
+section:
+  name: المشاريع
+  id: projects
+  enable: true
+  weight: 5
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# your projects
+projects:
+
+- name: Superviz
+  # logo: /images/sections/projects/superviz.png
+  image: /images/sections/projects/superviz_website.png
+  role: المنصب - مطور Backend
+  timeline: ""
+  summary: Superviz هي منصة فرنسية تربط السائقين ذوي الخبرة مع متعلمي القيادة الذين يبحثون عن جلسات قيادة تحت الإشراف. تقدم فرصة للسائقين ذوي الخبرة لكسب دخل إضافي من خلال أن يصبحوا "مشرفين".
+  tags: ["قيادة", "تعليم", "منصة", "فرنسا"]
+  url: https://superviz.eu/
+
+- name: 5àsec
+  # logo: /images/sections/projects/5asec.png
+  image: /images/sections/projects/5asec_website.png
+  role: المنصب - مطور FullStack
+  timeline: ""
+  summary: 5àsec مراكش يقدم خدمات التنظيف الجاف والغسيل مع الاستلام والتسليم خلال 24 ساعة، يخدم العملاء في مراكش، المغرب.
+  tags: ["خدمات", "غسيل", "تجارة", "دولي"]
+  url: https://5-asec.com/
+
+- name: Amende Pro
+  # logo: /images/sections/projects/amendepro.png
+  image: /images/sections/projects/amendepro_website.png
+  role: المنصب - مطور FullStack
+  timeline: ""
+  summary: حل SaaS فرنسي متصل بـ ANTAI لرقمنة وإدارة مخالفات المرور للشركات.
+  tags: ["برمجيات", "نقل", "مخالفات", "B2B"]
+  url: https://amendepro.fr/
+
+- name: Moh Le Patron
+  # logo: /images/sections/projects/moh.png
+  image: /images/sections/projects/moh_website.png
+  role: المنصب - مطور موبايل
+  timeline: ""
+  summary: سلسلة تجارة إلكترونية وتجزئة تقدم مجموعة واسعة من المنتجات بما في ذلك الإلكترونيات والأجهزة المنزلية، مع تطبيقات Android و iOS.
+  tags: ["تجارة إلكترونية", "تجزئة", "إلكترونيات", "موبايل"]
+  url: https://moh-le-patron.com/
+
+- name: Swibeco
+  # logo: /images/sections/projects/swibeco.svg
+  image: /images/sections/projects/swibeco_website.png
+  role: المنصب - مطور Frontend
+  timeline: ""
+  summary: منصة سويسرية تقدم مزايا وامتيازات معفاة من الضرائب للموظفين لتحسين مشاركة الموظفين ورضاهم.
+  tags: ["موارد بشرية", "مزايا", "SaaS", "موظف"]
+  url: https://www.swibeco.ch/en/
+
+- name: Carrybooh
+  # logo: /images/sections/projects/carrybooh.png
+  image: /images/sections/projects/carrybooh_website.png
+  role: المنصب - مطور Backend
+  timeline: ""
+  summary: تطبيق موبايل لطلب وتتبع التوصيلات المحلية من متاجرك ومطاعمك المفضلة.
+  tags: ["توصيل", "موبايل", "طعام", "محلي"]
+  url: https://play.google.com/store/apps/details?id=com.carrybooh.app&hl=en
+
+- name: Casky
+  # logo: /images/sections/projects/casky.png
+  image: /images/sections/projects/casky_website.png
+  role: المنصب - مطور FullStack
+  timeline: ""
+  summary: منصة SaaS لمقدمي خدمات المركبات، تقدم أتمتة سير العمل وأدوات ما بعد البيع.
+  tags: ["سيارات", "SaaS", "B2B", "سير عمل"]
+  url: https://casky.io/ 

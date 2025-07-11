@@ -1,0 +1,16 @@
+# Copyright Notice make it dynamic year
+copyright: © 2025. جميع الحقوق محفوظة.
+
+# A disclaimer notice for the footer. Make sure you have set "params.footer.disclaimer.enable: true" in your `config.yaml` file.
+disclaimer: "هذا القالب تحت رخصة MIT. لذلك يمكنك استخدامه لأغراض غير تجارية أو تجارية أو خاصة. يمكنك تعديل أو توزيع القالب دون الحاجة لطلب إذن من مؤلف القالب. ومع ذلك، لا يقدم مؤلف القالب أي ضمان أو يتحمل أي مسؤولية عن أي مشكلة في القالب."
+
+# Meta description for your site. This will help the search engines to find your site.
+description: محفظة أعمال ومدونة شخصية لعبد الإله بوتزوة.
+
+# Specify OpenGraph Headers
+openGraph:
+  title: محفظة بوتزوة
+  type: website
+  description: محفظة أعمال ومدونة شخصية لعبد الإله بوتزوة.
+  image: images/author/me.jpeg
+  url: https://boutizoua.com 
