@@ -1,0 +1,112 @@
+# section information
+section:
+  name: Expériences
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your experiences
+experiences:
+  - company:
+      name: DXC Technology Morocco.
+      url: "https://dxc.com/ma/en"
+      location: Casablanca - Télétravail
+      logo: /images/sections/experiences/dxc.png
+      overview: DXC Technology est un leader mondial des services et solutions informatiques de nouvelle génération, aidant les clients à exploiter le pouvoir de l'innovation pour prospérer dans le changement.
+    positions:
+      - designation: Consultant Technique Fonctionnel
+        start: Juin 2023
+        responsibilities:
+          - Intégration de diverses interfaces pour différents projets
+          - Création de documentation technique complète
+          - Réalisation de revues de code pour assurer les bonnes pratiques
+          - Refactorisation et maintenance de projets legacy
+          - Développement et exécution de tests unitaires avec Jest
+
+  - company:
+      name: ALTWEEB.
+      location: Marrakech - Télétravail
+    positions:
+      - designation: Ingénieur Logiciel - Freelance
+        start: Janvier 2023
+        end: Mai 2023
+        responsibilities:
+          - Intégration de designs Figma en interfaces web fonctionnelles
+          - Développement de composants web et interfaces réutilisables
+          - Mise en place de pipelines CI/CD pour les déploiements automatisés
+          - Réalisation de tests unitaires avec Jest pour assurer la qualité du code
+          - Collaboration avec des équipes transversales pour livrer les projets
+
+  - company:
+      name: Pulse.digital Maroc.
+      url: "https://pulse.digital"
+      location: Marrakech - Télétravail
+      logo: /images/sections/experiences/pulse.png
+      overview: Pulse.digital est une agence numérique spécialisée dans le développement d'applications web et mobiles, fournissant des solutions innovantes aux clients du monde entier.
+    positions:
+      - designation: Consultant Technique Fonctionnel
+        start: Février 2022
+        end: Septembre 2022
+        responsibilities:
+          - Conception et implémentation de composants web et d'interfaces
+          - Maintenance et mise à niveau des packages existants
+          - Réalisation de tests unitaires avec Jest pour valider les fonctionnalités
+          - Participation aux revues de code et sessions de programmation en binôme
+          - Support technique et dépannage
+  
+  - company:
+      name: Devaro Maroc.
+      url: "https://devaro.co"
+      location: Marrakech - Télétravail
+      logo: /images/sections/experiences/devaro.png
+      overview: Devaro est un fournisseur leader de solutions logicielles, spécialisé dans le développement d'applications web et mobiles, avec un focus sur la livraison de produits de haute qualité aux clients.
+    positions:
+      - designation: Développeur Full Stack
+        start: "Mars 2021"
+        end: "Février 2022"
+        responsibilities:
+          - Conception et développement d'applications mobiles et web à partir de zéro
+          - Support technique continu et maintenance
+          - Résolution de problèmes techniques complexes
+          - Implémentation de nouvelles fonctionnalités basées sur les retours utilisateurs
+          - Optimisation des performances pour une meilleure efficacité
+  
+  - company:
+      name: Casky.io.
+      url: "https://casky.io"
+      location: Marrakech
+      logo: /images/sections/experiences/casky.png
+      overview: Casky.io est une entreprise technologique axée sur la fourniture de solutions innovantes pour la sécurité routière, spécialisée dans les applications mobiles et web pour les deux-roues.
+    positions:
+      - designation: Lead Développeur Full Stack - Freelance
+        start: Juin 2019
+        end: Mars 2021
+        responsibilities:
+          - Maintenance et amélioration des applications web et mobiles pour répondre aux exigences clients.
+          - Développement et implémentation de nouvelles fonctionnalités pour améliorer l'offre produit.
+          - Refactorisation du code pour améliorer les performances et la maintenabilité des applications.
+          - Assurance de la compatibilité cross-platform et de la responsivité dans tous les projets.
+          - Collaboration directe avec les clients pour comprendre les besoins et livrer des solutions sur mesure.
+      - designation: Développeur d'Applications Mobiles - Stagiaire
+        start: Avril 2019
+        end: Mai 2019
+        responsibilities:
+          - Développement et maintenance d'applications mobiles pour plateformes Android et iOS
+          - Développement de nouvelles fonctionnalités pour les applications existantes
+          - Assurance de la compatibilité cross-platform et de la responsivité
+  
+  - company:
+      name: Z Smart Services.
+      location: Marrakech
+      overview: Z Smart Services est une entreprise technologique spécialisée dans la fourniture de solutions intelligentes pour diverses industries, avec un focus sur l'innovation et la qualité.
+    positions:
+      - designation: Développeur Full Stack - Stagiaire
+        start: Mai 2018
+        end: Septembre 2018
+        responsibilities:
+          - "Conception et développement d'applications web et mobiles pour la gestion des absences"
+          - "Développement d'APIs en PHP"
+          - "Utilisation des technologies : Android (Java), JavaScript, et PHP natif" 

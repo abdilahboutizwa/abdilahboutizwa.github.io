@@ -1,0 +1,19 @@
+# some information about you
+name: "Abdelilah Boutizoua"
+nickname: "Abdelilah Boutizoua"
+# greeting message before your name. it will default to "Hi! I am" if not provided
+greeting: "Salut, je suis"
+image: "images/author/me.jpeg"
+# give your some contact information. they will be used in the footer
+contactInfo:
+  email: "boutizouaa@gmail.com"
+  phone: "+212 6 07 07 16 98"
+  github: abdilahboutizwa
+  linkedin: abdilahboutizwa
+  location: "Marrakech, Maroc"
+
+# some summary about what you do
+summary:
+  - Je suis Ingénieur Logiciel
+  - J'adore travailler avec TypeScript
+  - J'adore travailler avec React 

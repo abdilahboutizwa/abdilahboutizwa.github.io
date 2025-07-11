@@ -1,0 +1,30 @@
+# section information
+section:
+  name: Compétences
+  id: skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  filter: false
+
+# Your Skills.
+# Give a summary of you each skill in the summary section.
+skills:
+- name: Développement Logiciel
+  summary: "Expérimenté dans la création d'applications full-stack utilisant une large gamme de technologies incluant JavaScript, TypeScript, NodeJS, PHP, et Flutter. Capacité prouvée à concevoir et implémenter des solutions évolutives, maintenir des bases de code legacy, et refactoriser les systèmes pour les performances et la maintenabilité."
+
+- name: Développement Web
+  summary: "Compétent dans le développement d'applications web responsives et conviviales. Maîtrise des frameworks front-end comme ReactJS et des technologies back-end incluant Symfony, KoaJS, et PHP. Succès démontré dans l'intégration de designs Figma, le développement de composants réutilisables, et l'assurance de la compatibilité cross-browser."
+  
+
+- name: Développement Mobile
+  summary: "Expérience pratique dans la création d'applications mobiles cross-platform utilisant Flutter et React Native. Livraison d'applications mobiles fonctionnelles du concept au déploiement, mettant l'accent sur l'expérience utilisateur, les performances, et la fonctionnalité fluide sur tous les appareils."
+
+- name: DevOps
+  summary: "Implémentation de pipelines CI/CD pour automatiser les processus de test et de déploiement. Utilisation extensive de Docker pour la conteneurisation et le déploiement, améliorant la vitesse de livraison et la cohérence des environnements. Support des workflows de contrôle de version et d'automatisation."
+
+- name: Architecture Logicielle
+  summary: "Conception d'architectures d'applications modulaires et maintenables. Participation aux revues de code et discussions techniques collaboratives pour assurer un code propre et l'adhérence aux bonnes pratiques. Support de l'intégration de systèmes complexes et de la modernisation de projets legacy."
+
+- name: Automatisation des Tests
+  summary: "Application rigoureuse de tests unitaires utilisant Jest pour maintenir la fiabilité du code et réduire les régressions. Construction et maintenance de suites de tests automatisés dans le cadre du cycle de vie de développement pour assurer la stabilité des applications et l'assurance qualité." 

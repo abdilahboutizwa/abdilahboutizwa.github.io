@@ -1,0 +1,82 @@
+# section information
+section:
+  name: Publications
+  id: publications
+  enable: false
+  weight: 6
+  showOnNavbar: false
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# filter buttons
+buttons:
+- name: Tout
+  filter: "all"
+- name: "Apprentissage Automatique"
+  filter: "machinelearning"
+- name: "Traitement d'Images"
+  filter: "image-processing"
+- name: Sécurité
+  filter: "security"
+
+# your publications
+publications:
+- title: Un Article Exemple sur l'Apprentissage Automatique
+  publishedIn:
+    name: Symposium Régional IEEE 2020 (TENSYMP)
+    date: 7 Juin 2020
+    url: https://example.com
+  authors:
+  - name: Dr. Madman
+    url: https://example.com
+  - name: Dr. Lessmad
+    url: https://example.com
+  - name: Dr. Moremad
+    url: https://example.com
+  - name: Dr. Goodman
+    url: https://example.com
+  paper:
+    summary: Voluptate in id id voluptate laboris. Minim mollit aliquip sit aliqua ut exercitation voluptate eiusmod consequat pariatur sunt enim veniam. Velit esse tempor laboris anim tempor officia. Magna non labore duis do esse sit do ipsum culpa. Officia consequat id non duis culpa dolor. Excepteur magna non nostrud cupidatat aute aliqua aliquip.
+    url: https://example.com
+  categories: ["machinelearning","image-processing"]
+  tags: ["Apprentissage Automatique", "Conduite Autonome", "Vision par Ordinateur"]
+
+- title: Un Article Exemple sur le Traitement d'Images
+  publishedIn:
+    name: Symposium Régional IEEE 2020 (TENSYMP)
+    date: 7 Juin 2020
+    url: https://example.com
+  authors:
+  - name: Dr. Madman
+    url: https://example.com
+  - name: Dr. Lessmad
+    url: https://example.com
+  - name: Dr. Moremad
+    url: https://example.com
+  - name: Dr. Goodman
+    url: https://example.com
+  paper:
+    summary: Ullamco magna minim cupidatat Lorem ea ex aliqua fugiat et. Dolor quis cillum ea duis irure et commodo aliquip consectetur ullamco labore ut anim nisi. Commodo reprehenderit est consectetur tempor adipisicing occaecat exercitation amet do aliquip dolor do irure. Labore officia ut magna pariatur reprehenderit et ex sit sunt. Magna proident ullamco adipisicing sit.
+    url: https://example.com
+  categories: ["image-processing"]
+  tags: ["Traitement d'Images", "Vision par Ordinateur"]
+
+- title: Un Article Exemple sur la Sécurité
+  publishedIn:
+    name: Symposium Régional IEEE 2020 (TENSYMP)
+    date: 7 Juin 2020
+    url: https://example.com
+  authors:
+  - name: Dr. Madman
+    url: https://example.com
+  - name: Dr. Lessmad
+    url: https://example.com
+  - name: Dr. Moremad
+    url: https://example.com
+  - name: Dr. Goodman
+    url: https://example.com
+  paper:
+    summary: Dolor ad cupidatat pariatur nulla ipsum ex ullamco nisi anim ullamco. Dolore elit esse in exercitation minim aliqua. Amet velit incididunt magna laboris. Proident reprehenderit deserunt ad officia duis dolor. Tempor nostrud ullamco ullamco sint deserunt cupidatat irure minim consectetur nulla adipisicing sunt.
+    url: https://example.com
+  categories: ["security"]
+  tags: ["Apprentissage Automatique", "Conduite Autonome", "Vision Machine"] 

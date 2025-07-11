@@ -1,0 +1,50 @@
+# section information
+section:
+  name: Formation
+  id: education
+  template: sections/education.html # Use "sections/education-alt.html for alternate template.
+  enable: true
+  weight: 4
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+degrees:
+  - name: Master en Systèmes d'Information et Systèmes Intelligents (M2SI)
+    icon: fa-graduation-cap
+    timeframe: 2019-2022
+    institution:
+      name: Institut National de Statistique et d'Économie Appliquée - Rabat
+      url: "https://insea.ac.ma"
+      logo: /images/sections/education/insea.png
+      # Can optionally show a different logo for dark theme
+      # darkLogo: /images/sections/education/university.jpg
+    customSections: #(optional)
+      - name: Thèse
+        content: Système de recommandation basé sur le big data utilisant des techniques de BPM intelligent et de fouille de processus.
+      - name: Superviseur
+        content: Pr. Maryam RADGUI.
+  - name: Licence professionnelle en Systèmes Informatiques et Génie Logiciel
+    icon: fa-university
+    timeframe: 2018-2019
+    institution:
+      name: École Supérieure de Technologie - Essaouira
+      url: "https://www.uca.ma/este/fr"
+      logo: /images/sections/education/este.png
+    customSections: #(optional)
+      - name: Projet de fin d'études
+        content: Conception et développement d'une solution de sécurité routière pour les deux-roues - Casky.io.
+      - name: Superviseur
+        content: Pr. Saïd Gounane.
+  - name: Diplôme de Technicien Spécialisé en Informatique
+    icon: fa-school
+    timeframe: 2016-2018
+    institution:
+      name: Institut Spécialisé de Technologie Appliquée NTIC - Marrakech
+      url: "https://www.myway.ac.ma/fr/etablissement/L650"
+      logo: /images/sections/education/ista.png
+    customSections: #(optional)
+      - name: Projet de fin d'études
+        content: E-SCHOOL - Gestion des présences, retards et avances de formation
+      - name: Superviseur
+        content: Pr. Lachgar Mohamed. 

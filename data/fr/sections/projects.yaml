@@ -1,0 +1,75 @@
+# section information
+section:
+  name: Projets
+  id: projects
+  enable: true
+  weight: 5
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# your projects
+projects:
+
+- name: Superviz
+  # logo: /images/sections/projects/superviz.png
+  image: /images/sections/projects/superviz_website.png
+  role: Poste - Développeur Backend
+  timeline: ""
+  summary: Superviz est une plateforme française qui met en relation des conducteurs expérimentés avec des apprentis conducteurs recherchant des séances de conduite supervisée. Elle offre une opportunité aux conducteurs expérimentés de gagner un revenu supplémentaire en devenant "Superviseurs."
+  tags: ["conduite", "éducation", "plateforme", "France"]
+  url: https://superviz.eu/
+
+- name: 5àsec
+  # logo: /images/sections/projects/5asec.png
+  image: /images/sections/projects/5asec_website.png
+  role: Poste - Développeur Full Stack
+  timeline: ""
+  summary: 5àsec Marrakech offre des services de nettoyage à sec et de blanchisserie avec retrait et livraison en 24 heures, s'adressant aux clients de Marrakech, Maroc.
+  tags: ["services", "blanchisserie", "commerce", "international"]
+  url: https://5-asec.com/
+
+- name: Amende Pro
+  # logo: /images/sections/projects/amendepro.png
+  image: /images/sections/projects/amendepro_website.png
+  role: Poste - Développeur Full Stack
+  timeline: ""
+  summary: Solution SaaS française connectée à ANTAI pour la numérisation et la gestion des amendes de circulation pour les entreprises.
+  tags: ["logiciel", "transport", "amendes", "B2B"]
+  url: https://amendepro.fr/
+
+- name: Moh Le Patron
+  # logo: /images/sections/projects/moh.png
+  image: /images/sections/projects/moh_website.png
+  role: Poste - Développeur Mobile
+  timeline: ""
+  summary: Chaîne de e-commerce et de vente au détail offrant une large gamme de produits incluant l'électronique et l'électroménager, avec des applications Android et iOS.
+  tags: ["ecommerce", "commerce", "électronique", "mobile"]
+  url: https://moh-le-patron.com/
+
+- name: Swibeco
+  # logo: /images/sections/projects/swibeco.svg
+  image: /images/sections/projects/swibeco_website.png
+  role: Poste - Développeur Frontend
+  timeline: ""
+  summary: Plateforme suisse offrant des avantages sociaux et des privilèges détaxés pour améliorer l'engagement et la satisfaction des employés.
+  tags: ["RH", "avantages", "SaaS", "employé"]
+  url: https://www.swibeco.ch/en/
+
+- name: Carrybooh
+  # logo: /images/sections/projects/carrybooh.png
+  image: /images/sections/projects/carrybooh_website.png
+  role: Poste - Développeur Backend
+  timeline: ""
+  summary: Application mobile pour commander et suivre les livraisons locales depuis vos magasins et restaurants favoris.
+  tags: ["livraison", "mobile", "nourriture", "local"]
+  url: https://play.google.com/store/apps/details?id=com.carrybooh.app&hl=en
+
+- name: Casky
+  # logo: /images/sections/projects/casky.png
+  image: /images/sections/projects/casky_website.png
+  role: Poste - Développeur Full Stack
+  timeline: ""
+  summary: Plateforme SaaS pour les prestataires de services automobiles, offrant l'automatisation des flux de travail et des outils après-vente.
+  tags: ["automobile", "SaaS", "B2B", "workflow"]
+  url: https://casky.io/ 

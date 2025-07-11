@@ -1,0 +1,55 @@
+# section information
+section:
+  name: À propos
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  template: sections/about.html
+
+# your designation
+designation: Ingénieur Logiciel
+# your company information
+company:
+  name: DXC Technology Morocco.
+  url: "https://dxc.com/ma/en"
+
+# your resume. this file path should be relative to you "static" directory
+# Dreprecated. Use resourceLinks instead.
+# resume: "files/resume.pdf"
+
+# a summary about you
+summary: 'Je suis un ingénieur logiciel passionné avec une vaste expérience dans le développement d''applications web et mobiles, spécialisé dans la création de solutions efficaces, évolutives et conviviales en utilisant des technologies comme JavaScript, TypeScript, React et Flutter, avec un fort accent sur la qualité et les performances.'
+
+# your social links
+# give as many as you want. use font-awesome for the icons.
+socialLinks:
+- name: Email
+  icon: "fas fa-envelope"
+  url: "boutizouaa@gmail.com"
+
+- name: Github
+  icon: "fab fa-github"
+  url: "https://www.github.com/abdilahboutizwa"
+
+- name: Stackoverflow
+  icon: "fab fa-stack-overflow"
+  url: "https://stackoverflow.com/users/15361405/abdelilah-boutizoua"
+
+- name: LinkedIn
+  icon: "fab fa-linkedin"
+  url: "https://www.linkedin.com/in/abdilahboutizwa/"
+
+- name: Twitter
+  icon: "fab fa-twitter"
+  url: "https://twitter.com/abdilahboutizwa"
+
+- name: Facebook
+  icon: "fab fa-facebook"
+  url: "https://www.facebook.com/abdilahboutizwa"
+
+# You can put custom buttons to link your relevant resources.
+# For example, you can put link for your resume.
+resourceLinks:
+- title: "Mon CV"
+  url: "files/resume.pdf" 
