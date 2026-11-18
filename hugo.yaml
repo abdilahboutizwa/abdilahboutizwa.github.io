@@ -23,17 +23,17 @@ languages:
   en:
     languageCode: en
     languageName: English
-    title: "Abdelilah Boutizoua"
+    title: "Abdelilah Boutizoua — Software Engineer"
     weight: 1
   fr:
     languageCode: fr
     languageName: French
-    title: "Abdelilah Boutizoua"
+    title: "Abdelilah Boutizoua — Ingénieur logiciel"
     weight: 2
   ma:
     languageCode: ma
     languageName: Arabic
-    title: "عبدالاله بوتزوة"
+    title: "عبد الإله بوتزوة — مهندس برمجيات"
     weight: 3
 # default language for the content
 defaultContentLanguage: en

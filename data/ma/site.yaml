@@ -5,12 +5,12 @@ copyright: © 2025. جميع الحقوق محفوظة.
 disclaimer: "هذا القالب تحت رخصة MIT. لذلك يمكنك استخدامه لأغراض غير تجارية أو تجارية أو خاصة. يمكنك تعديل أو توزيع القالب دون الحاجة لطلب إذن من مؤلف القالب. ومع ذلك، لا يقدم مؤلف القالب أي ضمان أو يتحمل أي مسؤولية عن أي مشكلة في القالب."
 
 # Meta description for your site. This will help the search engines to find your site.
-description: محفظة أعمال ومدونة شخصية لعبد الإله بوتزوة.
+description: محفظة أعمال عبد الإله بوتزوة، مهندس برمجيات متخصص في TypeScript و React وتطوير تطبيقات الويب والموبايل.
 
 # Specify OpenGraph Headers
 openGraph:
   title: محفظة بوتزوة
   type: website
-  description: محفظة أعمال ومدونة شخصية لعبد الإله بوتزوة.
+  description: محفظة أعمال عبد الإله بوتزوة، مهندس برمجيات متخصص في TypeScript و React وتطوير تطبيقات الويب والموبايل.
   image: images/author/me.jpeg
-  url: https://boutizoua.com 
+  url: https://boutizoua.com

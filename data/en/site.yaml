@@ -7,12 +7,12 @@ You can modify or distribute the theme without requiring any permission from the
 However, the theme author does not provide any warranty or takes any liability for any issue with the theme."
 
 # Meta description for your site.  This will help the search engines to find your site.
-description: Portfolio and personal blog of Abdelilah Boutizoua.
+description: Portfolio of Abdelilah Boutizoua, a software engineer specializing in TypeScript, React, and full-stack web and mobile development.
 
 # Specify OpenGraph Headers
 openGraph:
   title: Boutizoua Portfolio
   type: website
-  description: Portfolio and personal blog of Abdelilah Boutizoua.
+  description: Portfolio of Abdelilah Boutizoua, a software engineer specializing in TypeScript, React, and full-stack web and mobile development.
   image: images/author/me.jpeg
   url: https://boutizoua.com

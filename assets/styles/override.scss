@@ -1,0 +1,6 @@
+/* Keep section-title anchor offset working after demoting titles from h1 to h2 */
+h2 > span {
+  margin-top: -55px; /* Size of fixed header */
+  padding-bottom: 55px;
+  display: block;
+}
