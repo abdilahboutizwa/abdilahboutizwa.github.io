@@ -2,23 +2,32 @@ image: registry.gitlab.com/pages/hugo/hugo_extended:latest
 
 default:
   before_script:
-    - apk add --update --no-cache git go nodejs npm
+    - apk add --update --no-cache git go nodejs npm curl
+    # Hugo 0.153+ requires the standalone Dart Sass binary (npm sass is not enough).
+    - |
+      DART_SASS_VERSION=1.94.0
+      curl -fsSL -o dart-sass.tar.gz \
+        "https://github.com/sass/dart-sass/releases/download/${DART_SASS_VERSION}/dart-sass-${DART_SASS_VERSION}-linux-x64.tar.gz"
+      tar -xzf dart-sass.tar.gz
+      export PATH="$CI_PROJECT_DIR/dart-sass:$PATH"
+      sass --embedded --version
     - hugo mod tidy
     - hugo mod npm pack
-    - npm install 
+    - npm install
 
 test:
   script:
+    - export PATH="$CI_PROJECT_DIR/dart-sass:$PATH"
     - hugo
   rules:
     - if: $CI_COMMIT_REF_NAME != $CI_DEFAULT_BRANCH
 
 pages:
   script:
+    - export PATH="$CI_PROJECT_DIR/dart-sass:$PATH"
     - hugo
   artifacts:
     paths:
       - public
   rules:
     - if: $CI_COMMIT_REF_NAME == $CI_DEFAULT_BRANCH
-

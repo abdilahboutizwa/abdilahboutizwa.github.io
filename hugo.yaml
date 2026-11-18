@@ -1,6 +1,8 @@
 baseURL: https://abdilahboutizwa.github.io
 
-languageCode: bn
+# locale replaces languageCode in Hugo v0.158+
+locale: en-US
+languageCode: en-US
 title: "Abdelilah Boutizoua"
 
 # Use Hugo modules to add theme
@@ -19,19 +21,26 @@ module:
 
 # Manage languages
 # For any more details, you can check the official documentation: https://gohugo.io/content-management/multilingual/
+# Keep languageCode/languageName for Hugo < 0.158; locale/label for Hugo >= 0.158
 languages:
   en:
-    languageCode: en
+    locale: en-US
+    languageCode: en-US
+    label: English
     languageName: English
     title: "Abdelilah Boutizoua — Software Engineer"
     weight: 1
   fr:
-    languageCode: fr
+    locale: fr-FR
+    languageCode: fr-FR
+    label: French
     languageName: French
     title: "Abdelilah Boutizoua — Ingénieur logiciel"
     weight: 2
   ma:
-    languageCode: ma
+    locale: ar-MA
+    languageCode: ar-MA
+    label: Arabic
     languageName: Arabic
     title: "عبد الإله بوتزوة — مهندس برمجيات"
     weight: 3

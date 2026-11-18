@@ -19,6 +19,17 @@ jobs:
         hugo-version: 'latest'
         extended: true
 
+    # Hugo 0.153+ requires the standalone Dart Sass binary (npm sass is not enough).
+    - name: Install Dart Sass
+      run: |
+        DART_SASS_VERSION=1.94.0
+        curl -fsSL -o dart-sass.tar.gz \
+          "https://github.com/sass/dart-sass/releases/download/${DART_SASS_VERSION}/dart-sass-${DART_SASS_VERSION}-linux-x64.tar.gz"
+        tar -xzf dart-sass.tar.gz
+        echo "$GITHUB_WORKSPACE/dart-sass" >> "$GITHUB_PATH"
+        rm dart-sass.tar.gz
+        sass --embedded --version
+
     - name: Update Hugo Modules
       run: hugo mod tidy
 
@@ -33,6 +44,8 @@ jobs:
         npm install
 
     - name: Build
+      env:
+        HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
       run: hugo --minify
 
     # push the generated content into the `gh-pages` branch.
