@@ -20,6 +20,7 @@ jobs:
         extended: true
 
     # Hugo 0.153+ requires the standalone Dart Sass binary (npm sass is not enough).
+    # GITHUB_PATH only applies to later steps, so verify with the absolute path here.
     - name: Install Dart Sass
       run: |
         DART_SASS_VERSION=1.94.0
@@ -28,7 +29,7 @@ jobs:
         tar -xzf dart-sass.tar.gz
         echo "$GITHUB_WORKSPACE/dart-sass" >> "$GITHUB_PATH"
         rm dart-sass.tar.gz
-        sass --embedded --version
+        "$GITHUB_WORKSPACE/dart-sass/sass" --embedded --version
 
     - name: Update Hugo Modules
       run: hugo mod tidy
